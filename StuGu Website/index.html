@@ -1,38 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>StuGu</title>
+    <title>StuGu Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+    </style>
 </head>
 
-<body style="background-color:rgb(255, 255, 255);">
-    <br> <br> <br>
-    <table style="width: 100%; border-collapse: collapse; border:8px solid #8e3bff;">
-        <tr>
-            <th style="width: 100%; border:8px solid #8e3bff;">
-                <font style="font-size: 38px; font-family: Trebuchet MS; color: #d800ff">Stu<font style="font-size: 40px; font-family: Trebuchet MS; color: #3080ff">Gu</font>
-                </font>
-            </th>
-        </tr>
-        <tr>
-            <th style="padding-left: 150px; padding-right: 150px; padding-top: 50px; padding-bottom: 50px">
-                <font style="font-size: 20px; font-family: Trebuchet MS;">Quality Course-Specific <font style="color: #d800ff;">Stu</font>dy <font style="color: #3080ff;">Gu</font>ides crowdsourced from successful students in order to benefit future students</font>
-                <br> <br> <br>
-                <a href="signUpPage.html" style="text-decoration:none; color:black;"><button style="height:30px; width:150px; font-family: sans-serif; font-size: 14px; border-radius: 30px;" type="button" name="signUp">Sign Up for Free</button></a>
-                <br> <br>
-                <a href="loginPage.html" style="text-decoration:none; color:black"><button style="height:30px; width:150px; font-family: sans-serif; font-size: 14px; border-radius: 30px;" type="button" name="login">Login</button></a>
-                <br> <br> <br>
-                <img src="StuGu_Logo.jpg" alt="StuGo Logo" style="width: 100px; height: 150px;">
-            </th>
-        </tr>
-    </table>
-    <br>
-    <table style="margin-left: auto; margin-right: auto; font-family: Trebuchet MS;">
-        <tr>
-            <th><img src="Twitter_Logo.png" alt="Twitter Logo" style="width: 50px; height: 40.625px;"></th>
-            <th>For news, updates, and everything StuGu, follow us on Twitter <a href="https://twitter.com/PVQz_">here</a>.</th>
-        </tr>
-    </table>
-</body>
-
-</html>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href='#' class="navbar-brand"><img src="StuGu_company_name_transparent.png" alt="StuGo Logo" style="width: 130px;"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="padding-top: 10px">Study Guides</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="padding-top: 10px">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><img src="profile_icon.png" alt="StuGo Logo" style="width: 25px;"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="text-align: center">
+        <img src="StuGu_company_name.png" style="width: 400px; padding-top: 240px">
+        <br>
+        <label style="font-family: 'Alegreya Sans SC', sans-serif; font-size: 30px; color: #7b7b7b">for students by students</label>
+        <br>
+        <a href="logInPage.html"><button type="button" name="login">Log In</button></a>
+        <a href="signUpPage.html"><button type="button" name="login">Sign Up</button></a>
+    </h1>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body></html>
