@@ -39,6 +39,7 @@ textarea {
     padding: 8px;
     padding-left: 25px;
     font-size: 20px;
+    outline:none
 }
 
 input[type="password"],
@@ -63,6 +64,7 @@ button {
     color: white;
     border-radius: 20px;
     padding: 8px;
+    outline:none
 }
 
 button:hover {
