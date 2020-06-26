@@ -3,8 +3,6 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-</head>
 </head>
 
 <body style="background-color:rgb(255, 255, 255);">
@@ -15,36 +13,33 @@
     </h1>
     <h2 style="text-align: center">
         <form>
-        <!-- <label2 for="Username">Username:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input type="text" placeholder="Email or Username">
-        <i class="far fa-envelope"></i>
-        <br>
-        <!-- <label2 for="Password">Password:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input id="pswrd" type="password" placeholder="Password">
-        <i class="fas fa-lock" onclick="show()"></i>
-        <br>
-        <br>
-        <a href="signUpPage.html"><button type="button" name="confirmSignUp">Log In</button></a>
-        <br>
-    </form>
+            <br>
+            <input type="text" placeholder="Username">
+            <img src="profile_icon.png" alt="Profile Icon" style="width: 24px; position: relative; top: 5px;">
+            <br>
+            <br>
+            <input id="pswrd" type="password" placeholder="Password">
+            <img src="lock_icon.png" id="lock" alt="Lock Icon" style="height: 30px; position: relative; top: 6px;" onclick="show()">
+            <br>
+            <br>
+            <a href="logInPage.html"><button type="button" name="confirmSignUp">Log In</button></a>
+            <br>
+        </form>
         <a href="forgotPasswordPage.html">Forgot Password?</a>
 
         <script>
-            function show(){
-             var pswrd = document.getElementById('pswrd');
-             var icon = document.querySelector('.fas');
-             if (pswrd.type === "password") {
-              pswrd.type = "text";
-              pswrd.style.marginTop = "20px";
-              icon.style.color = "#7f2092";
-             }else{
-              pswrd.type = "password";
-              icon.style.color = "grey";
-             }
+            function show() {
+                var pswrd = document.getElementById('pswrd');
+                var icon = document.querySelector('lock');
+                if (pswrd.type === "password") {
+                    pswrd.type = "text";
+                    icon.style.color = "#e81212";
+                } else {
+                    pswrd.type = "password";
+                    icon.style.color = "black";
+                }
             }
-           </script>
+        </script>
 
     </h2>
 </body></html>
