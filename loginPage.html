@@ -12,20 +12,27 @@
         <label>Log In</label>
     </h1>
     <h2 style="text-align: center">
+       
+        
         <form>
-            <br>
-            <input type="text" placeholder="Username">
+            
+        <div class="username3">
+            <input type="text" placeholder="Username" id="username" required>
             <img src="profile_icon.png" alt="Profile Icon" style="width: 24px; position: relative; top: 5px;">
-            <br>
-            <br>
-            <input id="pswrd" type="password" placeholder="Password">
+        </div>
+            
+        <div class="password1">
+            <input id="pswrd" type="password" placeholder="Password" required>
             <img src="lock_icon.png" id="lock" alt="Lock Icon" style="height: 30px; position: relative; top: 6px;" onclick="show()">
-            <br>
-            <br>
-            <a href="logInPage.html"><button type="button" name="confirmSignUp">Log In</button></a>
-            <br>
+        </div>
+            
+        <div class="login1">
+            <a href="logInPage.html"><button type="submit" name="confirmSignUp">Log In</button></a>
+        </div>
+            
+            <a href="forgotPasswordPage.html">Forgot Password?</a>
         </form>
-        <a href="forgotPasswordPage.html">Forgot Password?</a>
+        
 
         <script>
             function show() {
