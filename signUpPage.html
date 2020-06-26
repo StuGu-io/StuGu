@@ -15,27 +15,26 @@
         <label>Sign Up</label>
     </h1>
     <h2 style="text-align: center">
-    <form>
-        <!-- <label2 for="Email">Email:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input id="email" type="text" placeholder="Email">
-        <br>
-        <!-- <label2 for="Username">Username:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input id="username" type="text" placeholder="Username">
-        <br>
-        <!-- <label2 for="Password">Password:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input id="password" type="password" placeholder="Password">
-   
-        <br>
-        <!-- <label2 for="Confirm Password">Confirm Password:</label2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-        <br>
-        <input id="confirm password" type="password" placeholder="Confirm Password">
         
+    <form class="SignUp"> 
+        
+    <div class="email1">
+        <input id="email" type="text" placeholder="Email" required>
+    </div>
+        
+    <div>
+        <input id="username" type="text" placeholder="Username" required>
+    </div>
+       
+    <div class="password1">
+        <input id="password" type="password" placeholder="Password">
+    </div>
+      
+    <div>
+        <input id="confirm password" type="password" placeholder="Confirm Password" required>
+    </div>
 
-        <br>
-        <br>
+
         <div class="selectWrapper"><select class="selectBox" id="college" required>
             <option>Select Your University</option>
             <option>Alabama A&M University</option>
@@ -150,11 +149,13 @@
             <option>Winston-Salem State University</option>
             <option>Xavier University of Louisiana</option>
         </select></div>
-
-        <br>
-        <br>
-    </form>
-        <a href="signUpPage.html"><button type="button" name="confirmSignUp">Create Account</button></a>
+        
+     <div class="submit1">
+         <a href="signUpPage.html"><button type="submit" name="confirmSignUp">Create Account</button></a>
+      </div>
+        
+        </form>
+       
         
     </h2>
 
