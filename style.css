@@ -113,3 +113,30 @@ select {
     border: none;
     outline: none;
 }
+
+.email1{
+    padding-top:10px;
+}
+
+.password1{
+     padding-top:25px; 
+   
+}
+
+.password2{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.username1{
+    padding-top:25px;
+}
+
+
+.submit1{
+    padding-top:25px;
+}
+
+.login1{
+    padding-top:25px;
+}
