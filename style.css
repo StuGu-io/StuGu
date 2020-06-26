@@ -16,6 +16,7 @@ resetPass {
     font-weight: lighter;
     font-size: 14px;
     font-family: Trebuchet MS;
+    width: 500px;
 }
 
 aboutUs {
@@ -41,7 +42,7 @@ a:hover {
 input[type="text"],
 textarea {
     background-color: #efefef;
-    width: 260px;
+    width: 500px;
     border: none;
     border-radius: 20px;
     padding: 8px;
@@ -53,7 +54,7 @@ textarea {
 input[type="password"],
 textarea {
     background-color: #efefef;
-    width: 260px;
+    width: 500px;
     border: none;
     border-radius: 20px;
     padding: 8px;
@@ -81,4 +82,34 @@ button:hover {
 
 ::placeholder {
     color: #cccccc;
+}
+
+select {
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    text-align: center;
+    background-color: #efefef;
+    align-content: center;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    padding: 8px;
+    outline: none;
+}
+
+.selectWrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #efefef;
+    border: none;
+}
+
+.selectBox { 
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
