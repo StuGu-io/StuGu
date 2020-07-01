@@ -12,41 +12,38 @@
         <label>Log In</label>
     </h1>
     <h2 style="text-align: center">
-       
-        
         <form>
-            
-        <div class="username3">
-            <input type="text" placeholder="Username" id="username" required>
-            <img src="profile_icon.png" alt="Profile Icon" style="width: 24px; position: relative; top: 5px;">
-        </div>
-            
-        <div class="password1">
-            <input id="pswrd" type="password" placeholder="Password" required>
-            <img src="lock_icon.png" id="lock" alt="Lock Icon" style="height: 30px; position: relative; top: 6px;" onclick="show()">
-        </div>
-            
-        <div class="login1">
-            <a href="logInPage.html"><button type="submit" name="confirmSignUp">Log In</button></a>
-        </div>
-            
-            <a href="forgotPasswordPage.html">Forgot Password?</a>
+            <div class="username3">
+                <input type="text" placeholder="Username" id="username" required>
+                <img src="profile_icon.png" alt="Profile Icon" style="width: 24px; position: relative; top: 5px;">
+            </div>
+            <div class="password1">
+                <input id="pswrd" type="password" placeholder="Password" required>
+                <img src="eye_icon.png" id="eye" alt="Eye Icon" style="height: 30px; position: relative; top: 6px;" onclick="show()">
+            </div>
+            <div class="login1">
+                <a href="logInPage.html"><button type="submit" name="confirmSignUp">Log In</button></a>
+            </div>
         </form>
-        
+        <a href="forgotPasswordPage.html">Forgot Password?</a>
 
         <script>
             function show() {
                 var pswrd = document.getElementById('pswrd');
-                var icon = document.querySelector('lock');
+                var icon = document.querySelector('eye');
                 if (pswrd.type === "password") {
                     pswrd.type = "text";
-                    icon.style.color = "#e81212";
+                    icon.style.color = "blue";
                 } else {
                     pswrd.type = "password";
                     icon.style.color = "black";
                 }
             }
+
         </script>
 
     </h2>
+</body>
+
+</html>
 </body></html>
