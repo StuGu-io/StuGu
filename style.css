@@ -132,6 +132,19 @@ select {
     padding-top:25px;
 }
 
+#mainNav .nav-link{
+    color:white;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#mainNav .nav-link:hover{
+    color: #0255C0;
+}
+
+.navbar{
+    background-color: #000000;
+}
 
 .submit1{
     padding-top:25px;
