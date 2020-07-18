@@ -4,6 +4,11 @@ label {
     font-family: Trebuchet MS;
 }
 
+body{
+    background:#f5eff7;
+}
+
+
 label2 {
     color: #7b7b7b;
     font-weight: lighter;
