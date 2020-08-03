@@ -4,11 +4,6 @@ label {
     font-family: Trebuchet MS;
 }
 
-body{
-    background:#f5eff7;
-}
-
-
 label2 {
     color: #7b7b7b;
     font-weight: lighter;
@@ -80,6 +75,23 @@ button {
     padding: 8px;
 }
 
+buyStuGu {
+    height: 300px;
+    width: 300px;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.button-course {
+    height: 300px;
+    width: 300px;
+}
+
 button:hover {
     background-color: #848484;
     outline: none;
@@ -137,19 +149,6 @@ select {
     padding-top:25px;
 }
 
-#mainNav .nav-link{
-    color:white;
-    font-weight: 100;
-    font-size: 1rem;
-}
-
-#mainNav .nav-link:hover{
-    color: #0255C0;
-}
-
-.navbar{
-    background-color: #000000;
-}
 
 .submit1{
     padding-top:25px;
